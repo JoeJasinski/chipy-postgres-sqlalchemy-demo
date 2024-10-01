@@ -1,0 +1,5 @@
+sqlalchemy[asyncio]==2.0.35
+asyncpg
+jupyterlab==4.2.5
+jupyterlab-git
+jedi-language-server
