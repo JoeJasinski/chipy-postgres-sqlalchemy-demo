@@ -1,5 +1,6 @@
 ipython-sql==0.5.0
 jupyterlab==4.2.5
+jupyterlabcodetoc==4.0.1
 jupyterlab-git
 jedi-language-server
 psycopg==3.2.3

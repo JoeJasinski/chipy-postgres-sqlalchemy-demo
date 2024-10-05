@@ -155,6 +155,8 @@ jupyterlab-pygments==0.3.0
     # via nbconvert
 jupyterlab-server==2.27.3
     # via jupyterlab
+jupyterlabcodetoc==4.0.1
+    # via -r /requirements.in
 lsprotocol==2023.0.1
     # via
     #   jedi-language-server
