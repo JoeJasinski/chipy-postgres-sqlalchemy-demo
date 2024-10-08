@@ -15,7 +15,7 @@ def update_deps(ctx):
     ret = ctx.run(
         "docker-compose run web pip-compile --strip-extras /requirements.in", 
         warn=True, echo=True, )
-    requirements_text = (Path(".") / "requirements.txt")
+    requirements_text = (Path(".") / "docker" / "requirements.txt")
     print("Writing output to: ", requirements_text)
     requirements_text.write_text(ret.stderr)
 

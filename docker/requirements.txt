@@ -62,6 +62,8 @@ fastjsonschema==2.20.0
     # via nbformat
 fqdn==1.5.1
     # via jsonschema
+geoalchemy2==0.15.2
+    # via -r /requirements.in
 gitdb==4.0.11
     # via gitpython
 gitpython==3.1.43
@@ -192,6 +194,7 @@ overrides==7.7.0
     # via jupyter-server
 packaging==24.1
     # via
+    #   geoalchemy2
     #   ipykernel
     #   jupyter-server
     #   jupyterlab
@@ -287,6 +290,7 @@ soupsieve==2.6
 sqlalchemy==2.0.35
     # via
     #   -r /requirements.in
+    #   geoalchemy2
     #   ipython-sql
 sqlparse==0.5.1
     # via ipython-sql
