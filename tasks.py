@@ -19,7 +19,3 @@ def update_deps(ctx):
     print("Writing output to: ", requirements_text)
     requirements_text.write_text(ret.stderr)
 
-@task
-def pre(ctx):
-    res = ctx.run("ls -la", echo=True, warn=True)
-    print(res)
