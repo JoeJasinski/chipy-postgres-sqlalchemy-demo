@@ -190,6 +190,8 @@ nest-asyncio==1.6.0
     # via ipykernel
 notebook-shim==0.2.4
     # via jupyterlab
+numpy==2.1.2
+    # via shapely
 overrides==7.7.0
     # via jupyter-server
 packaging==24.1
@@ -272,6 +274,8 @@ rpds-py==0.20.0
     #   referencing
 send2trash==1.8.3
     # via jupyter-server
+shapely==2.0.6
+    # via -r /requirements.in
 six==1.16.0
     # via
     #   asttokens

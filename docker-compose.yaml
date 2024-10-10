@@ -16,7 +16,9 @@ services:
     - workspace:/home/notebook
     - ./work:/home/notebook/work/
   db:
-    image: "postgres:17.0"
+    build:
+      dockerfile: Dockerfile.postgres
+      context: ./docker/ 
     restart: always
     shm_size: 128mb
     environment:

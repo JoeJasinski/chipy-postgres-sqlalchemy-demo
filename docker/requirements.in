@@ -6,3 +6,4 @@ jedi-language-server
 psycopg==3.2.3
 sqlalchemy[asyncio]==2.0.35
 GeoAlchemy2==0.15.2
+shapely==2.0.6
